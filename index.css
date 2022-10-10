@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+}
+
+h3 {
+    color: white
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    margin: 0;
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+/* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+
+.counter {
+    text-align: center;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+button {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+}
+
+.main-div {
+    background-color: #1B244A;
+}
